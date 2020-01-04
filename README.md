@@ -1,5 +1,5 @@
 # 问题：无法用GTLFLoader加载模型
-我照着three.js的documentation做，到load model的时候，官方documentation这一步在这里，https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models
+我从three.js的documentation开头做，做到加载模型这一步，官方documentation这一步在这里，https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models
 文档里说的是有三种办法可以导入loader
 >Loading
 Only a few loaders (e.g. ObjectLoader) are included by default with three.js — others should be added to your page individually. Depending on your preference and comfort with build tools, choose one of the following:
