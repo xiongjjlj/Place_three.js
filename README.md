@@ -16,7 +16,8 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 ```
 
 但我自己尝试的时候，三种都分别有问题。
-*1. 全局的，不太知道在js文件里去调用，这是我的代码*
+
+**1. 全局的，不太知道在js文件里去调用，这是我的代码**
 ```
 <body>
     <script type='module' src="GLTFLoader.js">
@@ -38,9 +39,9 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 `Access to script at 'file:///C:/Computer/Document/Professional/Place.int/hopson/Coding/GLTFLoader.js' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https. [file:///C:/Computer/Document/Professional/Place.int/hopson/Coding/index.html]
 Failed to load resource: net::ERR_FAILED [file:///C:/Computer/Document/Professional/Place.int/hopson/Coding/GLTFLoader.js]`
 
-*2. require那种，主要问题是require is not defined，我尝试了网上的bundle方法还是没有解决，要什么样的情况才能用require？*
+**2. require那种，主要问题是require is not defined，我尝试了网上的bundle方法还是没有解决，要什么样的情况才能用require？**
 
-*3. 报错跟第一个一样*
+**3. 报错跟第一个一样**
 ```
 <body>
     <script type='module'>
