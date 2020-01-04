@@ -16,7 +16,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 ```
 
 但我自己尝试的时候，三种都分别有问题。
-1. 全局的，不太知道在js文件里去调用，这是我的代码
+    1. 全局的，不太知道在js文件里去调用，这是我的代码
 ```
 <body>
     <script type='module' src="GLTFLoader.js">
@@ -38,9 +38,9 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 `Access to script at 'file:///C:/Computer/Document/Professional/Place.int/hopson/Coding/GLTFLoader.js' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https. [file:///C:/Computer/Document/Professional/Place.int/hopson/Coding/index.html]
 Failed to load resource: net::ERR_FAILED [file:///C:/Computer/Document/Professional/Place.int/hopson/Coding/GLTFLoader.js]`
 
-2.require那种，主要问题是require is not defined，我尝试了网上的bundle方法还是没有解决，要什么样的情况才能用require？
+    2. require那种，主要问题是require is not defined，我尝试了网上的bundle方法还是没有解决，要什么样的情况才能用require？
 
-3.报错跟第一个一样
+    3. 报错跟第一个一样
 ```
 <body>
     <script type='module'>
@@ -61,4 +61,5 @@ Failed to load resource: net::ERR_FAILED [file:///C:/Computer/Document/Professio
 </body> 
 ```
 
-## 关于1和3的报错，我查了下说是跨域问题，不知道有没有服务器的问题？是不是浏览器打不开外部文件之类的？如果要用browserify打包，是应该对哪个进行打包？
+## 关于1和3的报错，我查了下说是跨域问题，不知道有没有服务器的问题？是不是浏览器打不开外部文件之类的？（网上写的太复杂已经无法理解了- -）关于2的报错，怎么才能用那个require？网上很多方法我都试过,说是要打包资源，如果要用browserify打包，是应该怎么打包？
+# 感谢！
